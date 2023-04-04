@@ -28,8 +28,12 @@ body {
     width: 329px;
     height: 329px;
 }
+.img-minicaratula{
+    width: 56px;
+    height: 56px;
+}
 
-
+/*estilos de los iconos */
 .material-icons.md-12 {
     font-size: 12px;
 }
