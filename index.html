@@ -1,12 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <body>
-    
+    <div class="barra_superior">
+        <header class="Menu_superior">
+            <div>
+                <button class="btn_nav"><span class="material-icons md-16 md-light">chevron_left</span></button>
+                <button class="btn_nav"><span class="material-icons md-16 md-light">chevron_right</span></button>
+            </div>
+            <button>Mejora tu cuenta</button>
+            <button>
+                <span class="material-icons md-16">person</span>
+                Usuario
+                <span class="material-icons md-16">expand_less</span>
+            </button>
+        </header>
+    </div>
+
+    <nav class="menu">
+        <div>
+            <div>
+                <a href="index.html"><img class="logo" src="/assets/logo.png" alt=""></a>
+            </div>
+        </div>
+        <ul>
+            <li><a href=""><span class="material-icons md-24">home</span>Inicio</a></li>
+            <li><a href=""><span class="material-icons md-24">search</span>Buscar</a></li>
+            <li><a href=""><span class="material-icons md-24">book</span>Tu biblioteca</a></li>
+        </ul>
+        <div>
+            <div>
+                <div>
+                    <button>
+                        <span class="material-icons md-12">add</span>Crear playlist
+                    </button>
+                </div>
+                <div>
+                    <button>
+                        <span class="material-icons md-12">favorite</span>Tus me gusta
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <hr class="division">
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="">Mi playlist</a>
+                    <div>
+                        <button>
+                            <span class="material-icons md-12">volume_up</span>
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <div>
+                <a href="">
+                    <div>
+                        <span class="material-icons md-16">arrow_downward</span>
+                    </div>
+                    Instalar app
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <div>
+                        <img  class="img-caratula" src="https://i.scdn.co/image/ab67616d0000b2733b57e2257933b78b7292de23" alt="">
+                    </div>
+                </a>
+
+                <button aria-label="Plegar" aria-expanded="fal"><span
+                        class="material-icons md-16">keyboard_arrow_down</span></button>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div>
+        <ul>
+            <li>
+                <button class="btn_Menu">Cuenta
+                    <span class="material-symbols-outlined"> open_in_new</span>
+                </button>
+            </li>
+            <li>
+                <button class="btn_Menu">Perfil</button>
+            </li>
+            <li>
+                <button class="btn_Menu">Cambiate a premium
+                    <span class="material-symbols-outlined">
+                        open_in_new
+                    </span>
+                </button>
+            </li>
+            <li>
+                <button class="btn_Menu">Configuración</button>
+            </li>
+            <li>
+                <button class="btn_Menu">Cerrar sesión</button>
+            </li>
+        </ul>
+    </div>
 </body>
+
 </html>

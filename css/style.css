@@ -1,0 +1,42 @@
+:root {
+    --color-fondo: #121212;
+    --color-menu: #000000;
+    --color-controles: #181818;
+}
+
+body {
+    background: var(--color-fondo);
+}
+.menu{
+    background: var(--color-menu);
+}
+
+.btn_Menu {
+    font-size: 14px;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+}
+.btn_nav{
+    background: red;
+}
+
+.logo {
+    width: 130px;
+    height: 40px;
+}
+
+.img-caratula{
+    width: 329px;
+    height: 329px;
+}
+
+
+.material-icons.md-12 {
+    font-size: 12px;
+}
+.material-icons.md-16 {
+    font-size: 16px;
+}
+.material-icons.md-24 {
+    font-size: 24px;
+}
+.material-icons.md-light { color: rgba(255, 255, 255, 1) }
