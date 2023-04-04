@@ -11,204 +11,188 @@
 </head>
 
 <body>
-    <!--Estructura de la barra superior -->
-    <div class="barra_superior">
-        <header class="Menu_superior">
-            <div>
-                <button class="btn_nav"><span class="material-icons md-16 md-light">chevron_left</span></button>
-                <button class="btn_nav"><span class="material-icons md-16 md-light">chevron_right</span></button>
-            </div>
-            <button>Mejora tu cuenta</button>
-            <button>
-                <span class="material-icons md-16">person</span>
-                Usuario
-                <span class="material-icons md-16">expand_less</span>
-            </button>
-        </header>
-    </div>
-    <!--Estructura del Menu izquierdo-->
-    <nav class="menu">
-        <div>
-            <div>
-                <a href="index.html"><img class="logo" src="/assets/logo.png" alt=""></a>
-            </div>
-        </div>
-        <ul>
-            <li><a href=""><span class="material-icons md-24">home</span>Inicio</a></li>
-            <li><a href=""><span class="material-icons md-24">search</span>Buscar</a></li>
-            <li><a href=""><span class="material-icons md-24">book</span>Tu biblioteca</a></li>
-        </ul>
-        <div>
-            <div>
-                <div>
+    <div class="contenedor" style="--panel-gap: 0px">
+        <div class="contenido">
+            <!--Estructura de la barra superior -->
+            <div class="barra-superior">
+                <header class="Menu_superior">
+                    <div>
+                        <button class="btn_nav"><span class="material-icons md-16 md-light">chevron_left</span></button>
+                        <button class="btn_nav"><span
+                                class="material-icons md-16 md-light">chevron_right</span></button>
+                    </div>
+                    <button>Mejora tu cuenta</button>
                     <button>
-                        <span class="material-icons md-12">add</span>Crear playlist
+                        <span class="material-icons md-16">person</span>
+                        Usuario
+                        <span class="material-icons md-16">expand_less</span>
                     </button>
-                </div>
+                </header>
+            </div>
+            <!--Estructura del Menu izquierdo-->
+            <nav class="menu">
                 <div>
-                    <button>
-                        <span class="material-icons md-12">favorite</span>Tus me gusta
-                    </button>
+                    <div>
+                        <a href="index.html"><img class="logo" src="/assets/logo.png" alt=""></a>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div>
-            <hr class="division">
-        </div>
-        <div>
-            <ul>
-                <li>
-                    <a href="">Mi playlist</a>
-                    <div>
-                        <button>
-                            <span class="material-icons md-12">volume_up</span>
-                        </button>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div>
-            <div>
-                <a href="">
-                    <div>
-                        <span class="material-icons md-16">arrow_downward</span>
-                    </div>
-                    Instalar app
-                </a>
-            </div>
-            <div>
-                <a href="">
-                    <div>
-                        <img class="img-caratula" src="https://i.scdn.co/image/ab67616d0000b2733b57e2257933b78b7292de23"
-                            alt="">
-                    </div>
-                </a>
-                <button aria-label="Plegar" aria-expanded="fal">
-                    <span class="material-icons md-16">keyboard_arrow_down</span>
-                </button>
-            </div>
-        </div>
-    </nav>
-    <!--Footer:  controles -->
-    <div>
-        <footer>
-            <!--div 1: Información de la cancion -->
-            <div>
+                <ul>
+                    <li><a href=""><span class="material-icons md-24">home</span>Inicio</a></li>
+                    <li><a href=""><span class="material-icons md-24">search</span>Buscar</a></li>
+                    <li><a href=""><span class="material-icons md-24">book</span>Tu biblioteca</a></li>
+                </ul>
                 <div>
-                    <a href="">
+                    <div>
                         <div>
-                            <img class="img-minicaratula"
-                                src="https://i.scdn.co/image/ab67616d0000b2733b57e2257933b78b7292de23" alt="">
+                            <button>
+                                <span class="material-icons md-12">add</span>Crear playlist
+                            </button>
                         </div>
-                    </a>
-                    <button aria-label="Plegar" aria-expanded="fal">
-                        <span class="material-icons md-16">keyboard_arrow_down</span>
-                    </button>
+                        <div>
+                            <button>
+                                <span class="material-icons md-12">favorite</span>Tus me gusta
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <hr class="division">
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="">Mi playlist</a>
+                            <div>
+                                <button>
+                                    <span class="material-icons md-12">volume_up</span>
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
                 <div>
                     <div>
-                        <span>
-                            <a href="">Nombre de la canción</a>
-                        </span>
+                        <a href="">
+                            <div>
+                                <span class="material-icons md-16">arrow_downward</span>
+                            </div>
+                            Instalar app
+                        </a>
                     </div>
                     <div>
-                        <span>
-                            <a href="">Artista</a>
-                        </span>
-                    </div>
-                </div>
-                <button>
-                    <span class="material-icons md-16">favorite_border</span>
-                </button>
-            </div>
-            <!--div 1: Controles de reproducción -->
-            <div>
-                <div>
-                    <div>
-                        <button>
-                            <span class="material-icons md-16">shuffle</span>
+                        <a href="">
+                            <div>
+                                <img class="img-caratula"
+                                    src="https://i.scdn.co/image/ab67616d0000b2733b57e2257933b78b7292de23" alt="">
+                            </div>
+                        </a>
+                        <button aria-label="Plegar" aria-expanded="fal">
+                            <span class="material-icons md-16">keyboard_arrow_down</span>
                         </button>
-                        <button>
-                            <span class="material-icons md-16">skip_previous</span>
-                        </button>
-                    </div>
-                    <button>
-                        <span class="material-icons md-16">pause</span>
-                    </button>
-                    <div>
-                        <button>
-                            <span class="material-icons md-16">skip_next</span>
-                        </button>
-                        <button>
-                            <span class="material-icons md-16">repeat</span>
-                        </button>
                     </div>
                 </div>
                 <div>
-                    <div>00:00</div>
-                    <div>
-                        <input type="range" min="0" max="325" step="5" aria-valuetext="" value="265">
+                    <input type="range" min="120" , max="384" step="10" value="320">
+                </div>
+            </nav>
+            <!--Footer:  controles -->
+            <div class="div-footer">
+                <footer data-testid="controles">
+                    <div class="div-footer1">
+                        <!--div 1: Información de la cancion -->
+                        <div class="detalles-cancion">
+                            <div class="mini-caratula">
+                                <a href="">
+                                    <div class="icon">
+                                        <img class="img-minicaratula"
+                                            src="https://i.scdn.co/image/ab67616d0000b2733b57e2257933b78b7292de23"
+                                            alt="">
+                                    </div>
+                                </a>
+                                <button class="btn-minicaratula" aria-label="Plegar" aria-expanded="fal">
+                                    <span class="material-icons md-16">keyboard_arrow_down</span>
+                                </button>
+                            </div>
+                            <div>
+                                <div>
+                                    <span>
+                                        <a href="">Nombre de la canción</a>
+                                    </span>
+                                </div>
+                                <div>
+                                    <span>
+                                        <a href="">Artista</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <button>
+                                <span class="material-icons md-16">favorite_border</span>
+                            </button>
+                        </div>
+                        <!--div 1: Controles de reproducción -->
+                        <div>
+                            <div>
+                                <div>
+                                    <button>
+                                        <span class="material-icons md-16">shuffle</span>
+                                    </button>
+                                    <button>
+                                        <span class="material-icons md-16">skip_previous</span>
+                                    </button>
+                                </div>
+                                <button>
+                                    <span class="material-icons md-16">pause</span>
+                                </button>
+                                <div>
+                                    <button>
+                                        <span class="material-icons md-16">skip_next</span>
+                                    </button>
+                                    <button>
+                                        <span class="material-icons md-16">repeat</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div>
+                                <div>00:00</div>
+                                <div>
+                                    <input type="range" min="0" max="325" step="5" aria-valuetext="" value="265">
+                                </div>
+                                <div>3:00</div>
+                            </div>
+                        </div>
+                        <!--div 1: volumen y otras opciones -->
+                        <div>
+                            <button>
+                                <span class="material-icons md-16">auto_fix_normal</span>
+                            </button>
+                            <div>
+                                <button>
+                                    <span class="material-icons md-16">horizontal_split</span>
+                                </button>
+                            </div>
+                            <div>
+                                <button>
+                                    <span class="material-icons md-16">speaker</span>
+                                </button>
+                            </div>
+                            <div>
+                                <button>
+                                    <span class="material-icons md-16">volume_up</span>
+                                </button>
+                                <div>
+                                    <input type="range" min="0" max="1" step="0.1">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div>3:00</div>
-                </div>
-            </div>
-            <!--div 1: volumen y otras opciones -->
-            <div>
-                <button>
-                    <span class="material-icons md-16">auto_fix_normal</span>
-                </button>
-                <div>
-                    <button>
-                        <span class="material-icons md-16">horizontal_split</span>
-                    </button>
-                </div>
-                <div>
-                    <button>
-                        <span class="material-icons md-16">speaker</span>
-                    </button>
-                </div>
-                <div>
-                    <button>
-                        <span class="material-icons md-16">volume_up</span>
-                    </button>
-                    <div>
-                        <input type="range" min="0" max="1" step="0.1">
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </div>
-    <!--Area Principal -->
-    <div>
-        
-    </div>
 
-    <!--Menu contextual de la barra superior -->
-    <div>
-        <ul>
-            <li>
-                <button class="btn_Menu">Cuenta
-                    <span class="material-symbols-outlined"> open_in_new</span>
-                </button>
-            </li>
-            <li>
-                <button class="btn_Menu">Perfil</button>
-            </li>
-            <li>
-                <button class="btn_Menu">Cambiate a premium
-                    <span class="material-symbols-outlined">
-                        open_in_new
-                    </span>
-                </button>
-            </li>
-            <li>
-                <button class="btn_Menu">Configuración</button>
-            </li>
-            <li>
-                <button class="btn_Menu">Cerrar sesión</button>
-            </li>
-        </ul>
+                </footer>
+            </div>
+            <!--Area Principal -->
+            <div class="principal">
+                <h1>Area principal</h1>
+            </div>
+        </div>
     </div>
 </body>
-
 </html>
