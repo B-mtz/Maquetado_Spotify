@@ -9,32 +9,23 @@ body {
     background: var(--color-fondo);
     font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif), sans-serif;
     display: block;
-    border: 0;
-    margin: 0;
-    padding: 0;
-    vertical-align: baseline;
+    scroll-behavior: smooth;
+    isolation: isolate;
+    padding-bottom: 32px
 }
 
 .principal {
-    scroll-behavior: smooth;
-    isolation: isolate;
-    padding-bottom: 32pox;
-}
-
-.contenido {
-    display: flex;
-    flex-direction: column;
-    isolation: isolate;
-    padding-top: 24px;
-}
-
-.estructura {
-    display: flex;
+    display: flexd;
     flex-flow: row wrap;
     gap: 24px;
     margin: 0;
-    max-width: 1995px;
-    padding: 16px;
+    max-width: 1955px;
+    padding: 0 32px;
+}
+.contenedor{
+    flex-direction: column;
+    isolation: isolate;
+    padding-top: 24px;
 }
 
 .buenos-dias {
@@ -56,15 +47,14 @@ body {
 
 .subtitulo {
     margin-block: 0px;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700;
     color: white;
 }
-
-.relevante {
+.relevante{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 20px;
+    grid-gap: 12px 24px;
+    grid-template-columns: repeat(3,1fr);
 }
 
 .tarjeta-horizontal {
@@ -72,8 +62,8 @@ body {
     border-radius: 4px;
     overflow: hidden;
     position: relative;
-    grid-column: span 1;
-
+    width: 370px;
+    height: 80px;
 }
 
 .contenedor-tarjeta {
@@ -81,8 +71,8 @@ body {
 }
 
 .img-horizontal {
-    min-height: 64px;
-    max-width: 64px;
+    min-height: 80px;
+    max-width: 80px;
     align-items: center;
     background-color: hsla(0, 0%, 100%, .1);
     box-shadow: 0 8px 24px rgba(0, 0, 0, .5);
@@ -122,7 +112,6 @@ body {
 }
 
 .titulo-elemento {
-    display: -webkit-box;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: normal;
@@ -130,7 +119,7 @@ body {
     box-sizing: border-box;
     margin-block: 0px;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 600;
     color: inherit;
 }
 
@@ -184,9 +173,8 @@ body {
     white-space: nowrap;
 }
 
-
-
-
 .material-icons.md-30 {
     font-size: 30px;
 }
+
+/*-----------seccion de enfoque-----------------*/

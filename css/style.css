@@ -738,7 +738,10 @@ footer {
     grid-area: centro;
     display: flex;
     flex-direction: column;
-    min-height: 0px;
+    min-height: 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
 }
 
 /*-----------------------Estilos de iconos-----------------------*/
