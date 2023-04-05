@@ -129,7 +129,7 @@
                                     <div class="contenedor-titulo">
                                         <div class="contenedor2">
                                             <div class="contenedor3">
-                                                <span >
+                                                <span>
                                                     <a href="" class="subtit">Artista</a>
                                                 </span>
                                             </div>
@@ -143,57 +143,55 @@
                         </div>
                     </div>
                     <!--div 1: Controles de reproducción -->
-                    <div>
-                        <div>
-                            <div>
-                                <button>
-                                    <span class="material-icons md-16">shuffle</span>
+                    <div class="control">
+                        <div class="division-control">
+                            <div class="contenedor-controles">
+                                <div class="izquierda">
+                                    <button class="btn-control">
+                                        <span class="material-icons md-20">shuffle</span>
+                                    </button>
+                                    <button class="btn-control">
+                                        <span class="material-icons md-28">skip_previous</span>
+                                    </button>
+                                </div>
+                                <button class="btn_pause">
+                                    <span class="material-icons md-20">pause</span>
                                 </button>
-                                <button>
-                                    <span class="material-icons md-16">skip_previous</span>
-                                </button>
+                                <div class="derecha">
+                                    <button class="btn-control">
+                                        <span class="material-icons md-28">skip_next</span>
+                                    </button>
+                                    <button class="btn-control">
+                                        <span class="material-icons md-20">repeat</span>
+                                    </button>
+                                </div>
                             </div>
-                            <button>
-                                <span class="material-icons md-16">pause</span>
-                            </button>
-                            <div>
-                                <button>
-                                    <span class="material-icons md-16">skip_next</span>
-                                </button>
-                                <button>
-                                    <span class="material-icons md-16">repeat</span>
-                                </button>
+                            <div class="barra-play">
+                                <div class="reproduciendo">00:00</div>
+                                <div class="barra-avance"></div>
+                                <div class="avance">3:00</div>
                             </div>
-                        </div>
-                        <div>
-                            <div>00:00</div>
-                            <div>
-                                <input type="range" min="0" max="325" step="5" aria-valuetext="" value="265">
-                            </div>
-                            <div>3:00</div>
                         </div>
                     </div>
                     <!--div 1: volumen y otras opciones -->
-                    <div>
-                        <button>
-                            <span class="material-icons md-16">auto_fix_normal</span>
-                        </button>
-                        <div>
-                            <button>
+                    <div class="brn-secundarios">
+                        <div class="contenedor-btn">
+                            <button class="btn-sec">
+                                <span class="material-icons outlined md-16">auto_fix_normal</span>
+                            </button>
+                            <button class="btn-sec">
                                 <span class="material-icons md-16">horizontal_split</span>
                             </button>
-                        </div>
-                        <div>
-                            <button>
+                            <button class="btn-sec">
                                 <span class="material-icons md-16">speaker</span>
                             </button>
-                        </div>
-                        <div>
-                            <button>
-                                <span class="material-icons md-16">volume_up</span>
-                            </button>
-                            <div>
-                                <input type="range" min="0" max="1" step="0.1">
+                            <div class="barra-volumen">
+                                <button class="btn-volumen">
+                                    <span class="material-icons md-16">volume_up</span>
+                                </button>
+                                <div class="barra-vol">
+                                    <input type="range" min="0" max="1" step="0.1" class="slider">
+                                </div>
                             </div>
                         </div>
                     </div>
