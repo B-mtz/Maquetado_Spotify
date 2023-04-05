@@ -22,7 +22,8 @@ body {
     max-width: 1955px;
     padding: 0 32px;
 }
-.contenedor{
+
+.contenedor {
     flex-direction: column;
     isolation: isolate;
     padding-top: 24px;
@@ -51,10 +52,11 @@ body {
     font-weight: 700;
     color: white;
 }
-.relevante{
+
+.relevante {
     display: grid;
     grid-gap: 12px 24px;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .tarjeta-horizontal {
@@ -62,7 +64,7 @@ body {
     border-radius: 4px;
     overflow: hidden;
     position: relative;
-    width: 370px;
+    width: 430px;
     height: 80px;
 }
 
@@ -172,9 +174,121 @@ body {
     top: 0;
     white-space: nowrap;
 }
+/*-----------seccion de enfoque-----------------*/
+.enfoque{
+    margin-bottom: 16px;
+}
+.titulo-enfoque {
+    display: flex;
+    margin-bottom: 16px;
+    padding-top: 16px;
+}
+
+.tit-derecha{
+    display: block;
+    flex-grow: 1;
+    line-height: normal;
+    min-width: 0;
+}
+.subtitulo2{
+    margin-block: 0px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: white;
+}
+.tit-izquierda{
+    margin-left: 8px;
+    background: transparent;
+    color: #b3b3b3;
+    white-space: nowrap;
+}
+.mostrar{
+    font-size: 0.875rem;
+    box-sizing: border-box;
+    margin-block: 0px;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    color: inherit;
+}
+
+.contenido-enfoque {
+    grid-gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    min-width: 394px;
+}
+.elemento-enfoque{
+    background: #181818;
+    border-radius:3%;
+    isolation: isolate;
+    padding: 16px;
+    position: relative;
+    width: 170px;
+    height: 260px;
+}
+.contenido{
+    height: 100%;
+}
+.imagen-enfoque{
+    margin-bottom: 16px;
+    position: relative;
+}
+.img-enf{
+    background-color: #333;
+    border-radius: 3%;
+    box-shadow: 0 8px 24px rgba(0,0,0,.5);
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+}
+.imga{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-radius: 3%;
+    display: block;
+}
+.descripcion-enfoque{
+    min-height: 62px;
+}
+.tit-elemento-enfoque{
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.tit-lista{
+    box-sizing: border-box;
+    margin-block: 0px;
+    font-size: 1rem;
+    font-weight: 700;
+    padding-block-end: 4px;
+    color:white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.subtit-elemento-enfoque{
+    font-size: 0.875rem;
+    font-weight:bold;
+    box-sizing: border-box;
+    margin-block: 0px;
+    font-weight: 400;
+    color:#6a6a6a;
+    margin-top: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
 
 .material-icons.md-30 {
     font-size: 30px;
 }
 
-/*-----------seccion de enfoque-----------------*/
+
