@@ -2,40 +2,44 @@
     --color-fondo: #121212;
     --color-menu: #000000;
     --color-controles: #181818;
+    --fallback-fonts: Helvetica Neue,helvetica,arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic;
 }
 
 /*-----------------------Estilos Generales-----------------------*/
 body {
     background: var(--color-fondo);
-    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, var(--fallback-fonts, sans-serif));
+    font-family: CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif),sans-serif;
     line-height: 1.6;
     border: 0;
     margin: 0;
     padding: 0;
     vertical-align: baseline;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    min-height: 600px;
-    min-width: 768px;
-    width: 100%;
     color: white;
     text-transform: none;
+    width: 100%;
 }
-
-.contenido {
+.principal{
     height: 100%;
     position: relative;
     isolation: isolate;
     width: 100%;
     z-index: 0;
+}
+div{
+    display: block;
+}
+.contenedor{
+    width: 100%;
+    height: 100%;
+}
+.contenido {
+    height: 100%;
+    position: relative;
 
     display: grid;
-    gap: var(panel-gap);
+    gap: 0;
     grid-template-areas:
-        "oeste norte norte" "oeste centro este" "sur sur sur";
+        "oeste norte norte" "oeste centro centro" "sur sur sur";
     grid-template-columns: auto 1fr;
     grid-template-rows: auto 1fr auto;
     height: 100%;
@@ -79,7 +83,7 @@ header {
 
 .btn-nav {
     align-items: center;
-    background-color: rgba(0, 0, 0.7);
+    background-color: var(--color-fondo);
     border: none;
     border-radius: 50%;
     color: #fff;
@@ -170,7 +174,7 @@ header {
 
 /*-----------------------Estilos del Menu-----------------------*/
 .menu {
-    background-color: #000;
+    background-color: var(--color-menu);
     display: flex;
     flex-direction: column;
     grid-area: oeste;
@@ -178,6 +182,7 @@ header {
     position: relative;
     width: 240px;
     z-index: 4;
+    height: 52vw;
 }
 
 .contenedor-menu {
@@ -190,6 +195,7 @@ header {
     padding-top: 24px;
     user-select: none;
     width: 100%;
+    height: 100vw;
 }
 
 .logotipo {
@@ -251,9 +257,6 @@ li {
 }
 
 .contendor-playlist {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-box-flex: 1;
     display: flex;
     flex-direction: column;
     min-height: 0;
@@ -733,7 +736,6 @@ footer {
 /*-----------------------Estilos del la seccion principal-----------------------*/
 .principal {
     grid-area: centro;
-    background-color: red;
     display: flex;
     flex-direction: column;
     min-height: 0px;
