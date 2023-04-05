@@ -51,35 +51,33 @@ body {
     min-width: 0;
     pointer-events: none;
 }
-
-header {
-    padding: 16px 20px;
-    padding-inline-end: 32px;
+.posicion{
+    padding: 16px 32px;
 }
-
 header {
-    -webkit-box-align: center;
-    -webkit-box-pack: justify;
     align-items: center;
     display: flex;
     gap: 16px;
-    height: 64px;
+  
     justify-content: space-between;
-    padding: 16px;
-    padding-inline-end: 16px;
     position: relative;
     width: 100%;
     z-index: 10;
 }
-
+.div1{
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
 .btn-navegacion {
     display: flex;
     gap: 16px;
+    pointer-events: auto;
+    white-space: nowrap;
 }
 
-.btn-navegacion .btn_nav {
-    -webkit-box-pack: center;
-    -webkit-box-align: center;
+.btn-nav {
     align-items: center;
     background-color: rgba(0, 0, 0.7);
     border: none;
@@ -127,35 +125,43 @@ header {
 }
 
 .btn_usuario {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     align-items: center;
     background-color: rgba(0, 0, 0, .7);
     border: 0;
     border-radius: 23px;
     color: #fff;
     cursor: pointer;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 8px;
     height: 32px;
     justify-content: center;
     padding: 2px;
     position: relative;
+    pointer-events: auto;
+    white-space: nowrap;
 }
 
 .user {
     width: 28px;
     height: 28px;
-    background-color: #878787;
+    background-color: #535353;
     border-radius: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
+.spn {
+    display: block;
+    font-size: 0.875rem;
+    box-sizing: border-box;
+    margin-block: 0px;
+    font-weight: 700;
+    color: inherit;
+    line-height: 28px;
+    max-width: 110px;
+}
+
 
 .triangulo {
     transform: rotate(90deg);
@@ -164,8 +170,6 @@ header {
 
 /*-----------------------Estilos del Menu-----------------------*/
 .menu {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     background-color: #000;
     display: flex;
     flex-direction: column;
@@ -423,12 +427,9 @@ instalar-a {
 }
 
 footer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     background-color: var(--color-controles);
     border-top: 1px solid #282828;
     display: flex;
-    -ms-flex-direction: column;
     flex-direction: column;
     height: auto;
     min-width: 620px;
@@ -641,6 +642,7 @@ footer {
     min-width: 40px;
     text-align: right;
 }
+
 .barra-avance {
     height: 5px;
     position: relative;
@@ -648,7 +650,8 @@ footer {
     background-color: #5E5E5E;
     opacity: .7;
 }
-.avance{
+
+.avance {
     box-sizing: border-box;
     margin-block: opx;
     font-size: 0.7875rem;
@@ -657,26 +660,29 @@ footer {
     min-width: 40px;
     text-align: left;
 }
-.btn-secundarios{
+
+.btn-secundarios {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     min-width: 180px;
     width: 30%;
 }
-.contenedor-btn{
+
+.contenedor-btn {
     align-items: center;
     flex-grow: 1;
     justify-content: flex-end;
     display: flex;
 }
-.btn-sec{
+
+.btn-sec {
     background: transparent;
     border: none;
     cursor: pointer;
     position: relative;
     vertical-align: middle;
-    color: hsla(0,0%,100%,.7) ;
+    color: hsla(0, 0%, 100%, .7);
     padding-block: 8px;
     min-block-size: 32px;
     padding-inline: 8px;
@@ -684,17 +690,19 @@ footer {
     align-items: center;
     justify-content: center;
 }
-.barra-volumen{
+
+.barra-volumen {
     margin-right: 4px;
     align-items: center;
     display: flex;
-    flex : 0 1 125px;
+    flex: 0 1 125px;
     position: relative;
 }
-.btn-volumen{
+
+.btn-volumen {
     background-color: transparent;
     border: none;
-    color: hsla(0,0%,100%,.7);
+    color: hsla(0, 0%, 100%, .7);
     height: 32px;
     min-width: 32px;
     width: 32px;
@@ -703,12 +711,14 @@ footer {
     display: flex;
     justify-content: center;
 }
-.barra-vol{
+
+.barra-vol {
     height: 5px;
     position: relative;
     width: 100%;
     background-color: #5E5E5E;
 }
+
 .slider {
     width: 100%;
     height: 5px;
@@ -717,16 +727,25 @@ footer {
     opacity: 0;
     -webkit-transition: .2s;
     transition: opacity .2s;
-  }
+}
 
+
+/*-----------------------Estilos del la seccion principal-----------------------*/
 .principal {
     grid-area: centro;
     background-color: red;
+    display: flex;
+    flex-direction: column;
+    min-height: 0px;
 }
 
-/*estilos de los iconos */
+/*-----------------------Estilos de iconos-----------------------*/
 .material-icons.md-12 {
     font-size: 12px;
+}
+
+.material-icons.md-15 {
+    font-size: 15px;
 }
 
 .material-icons.md-20 {
