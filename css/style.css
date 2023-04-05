@@ -51,10 +51,12 @@ body {
     min-width: 0;
     pointer-events: none;
 }
+
 header {
     padding: 16px 20px;
     padding-inline-end: 32px;
 }
+
 header {
     -webkit-box-align: center;
     -webkit-box-pack: justify;
@@ -69,10 +71,12 @@ header {
     width: 100%;
     z-index: 10;
 }
+
 .btn-navegacion {
     display: flex;
     gap: 16px;
 }
+
 .btn-navegacion .btn_nav {
     -webkit-box-pack: center;
     -webkit-box-align: center;
@@ -89,16 +93,19 @@ header {
     width: 32px;
     opacity: .6;
 }
+
 .norte-espacio1 {
     -webkit-box-flex: 1;
     flex-grow: 1;
     min-width: 0;
     pointer-events: none;
 }
+
 .norte-espacio2 {
     display: flex;
     gap: 8px;
 }
+
 .btn_premium {
     margin-left: auto;
     font-size: 0.875rem;
@@ -118,6 +125,7 @@ header {
     display: inline-flex;
     align-items: center;
 }
+
 .btn_usuario {
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -138,6 +146,7 @@ header {
     padding: 2px;
     position: relative;
 }
+
 .user {
     width: 28px;
     height: 28px;
@@ -147,6 +156,7 @@ header {
     flex-direction: column;
     justify-content: center;
 }
+
 .triangulo {
     transform: rotate(90deg);
     margin-inline-end: 6px;
@@ -165,6 +175,7 @@ header {
     width: 240px;
     z-index: 4;
 }
+
 .contenedor-menu {
     -webkit-box-orient: vertical;
     -webkit-box-flex: 1;
@@ -176,6 +187,7 @@ header {
     user-select: none;
     width: 100%;
 }
+
 .logotipo {
     -webkit-box-orient: horizontal;
     -webkit-box-pack: justify;
@@ -183,6 +195,7 @@ header {
     flex-shrink: 0;
     justify-content: space-between;
 }
+
 .contenedor-logo {
     border: 0;
     ;
@@ -190,11 +203,13 @@ header {
     margin-bottom: 18px;
     padding: 0 24px;
 }
+
 .logo {
     width: 130px;
     height: 40px;
 }
-ul{
+
+ul {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -203,9 +218,11 @@ ul{
     padding-inline-start: 2px;
     list-style: none;
 }
+
 li {
     padding: 0 8px;
 }
+
 .elemento-li {
     color: white;
     font-size: 0.875rem;
@@ -224,10 +241,12 @@ li {
     vertical-align: baseline;
     box-sizing: border-box;
 }
-.o{
+
+.o {
     opacity: 0.75;
 }
-.contendor-playlist{
+
+.contendor-playlist {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-box-flex: 1;
@@ -240,14 +259,16 @@ li {
     margin-top: 24px;
     position: relative;
 }
-.contendor-playlist1{
+
+.contendor-playlist1 {
     flex: 1;
     height: 100%;
     display: flex;
     flex-direction: column;
     min-height: 0;
 }
-.btn-nuevalista{
+
+.btn-nuevalista {
     color: white;
     font-size: 0.875rem;
     font-weight: 700;
@@ -268,7 +289,8 @@ li {
     width: 100%;
 
 }
-.icono-add{
+
+.icono-add {
     margin-right: 16px;
     display: flex;
     flex-shrink: 0;
@@ -277,7 +299,8 @@ li {
     position: relative;
     width: 24px;
 }
-.icono-add1{
+
+.icono-add1 {
     -webkit-box-align: center;
     align-items: center;
     background: #fff;
@@ -289,18 +312,21 @@ li {
     position: absolute;
     width: 100%;
 }
-.color-icono{
-    background: linear-gradient(135deg,#450af5,#c4efd9);
+
+.color-icono {
+    background: linear-gradient(135deg, #450af5, #c4efd9);
     border-radius: 2px;
     height: 100%;
     position: absolute;
     width: 100%;
     color: white;
 }
-.division{
+
+.division {
     position: relative;
 }
-.separador{
+
+.separador {
     background-color: #282828;
     border: none;
     height: 1px;
@@ -311,23 +337,27 @@ li {
     min-height: 1px;
 
 }
-.div-listas{
+
+.div-listas {
     height: 100%;
 }
-.div-listas1{
-    overflow: visible!important;
+
+.div-listas1 {
+    overflow: visible !important;
     position: relative;
     height: 100%;
     overscroll-behavior-y: contain;
 
 }
-.lli{
+
+.lli {
     padding-left: 24px;
     padding-right: 24px;
     display: flex;
     position: relative;
 }
-.lista1{
+
+.lista1 {
     color: #b3b3b3;
     cursor: default;
     font-size: 0.875rem;
@@ -339,7 +369,8 @@ li {
     justify-content: flex-start;
     overflow: hidden;
 }
-.btn-vol{
+
+.btn-vol {
     align-items: center;
     color: #b3b3b3;
     display: flex;
@@ -348,7 +379,8 @@ li {
     margin: 0;
     margin-inline-start: 8px;
 }
-.btn-v{
+
+.btn-v {
     line-height: 1;
     margin-left: 8px;
     color: #fff;
@@ -356,14 +388,17 @@ li {
     border: none;
     position: relative;
 }
-.instalar{
+
+.instalar {
     overflow: hidden;
     z-index: 1;
 }
-.instalar-app{
+
+.instalar-app {
     padding: 0 8px;
 }
-instalar-a{
+
+instalar-a {
     -webkit-box-align: center;
     align-items: center;
     border-radius: 4px;
@@ -374,17 +409,152 @@ instalar-a{
     padding: 0 16px;
     color: #b3b3b3;
 }
-.desc{
+
+.desc {
     overflow-clip-margin: content-box;
     overflow: hidden;
 }
 
 /*-----------------------Estilos del footer-----------------------*/
+/*Estilos del div 1 detalles de la cancio */
+.div-footer {
+    grid-area: sur;
+    width: 100%;
+}
+
+footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    background-color:var(--color-controles);
+    border-top: 1px solid #282828;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: auto;
+    min-width: 620px;
+    user-select: none;
+}
+
+.div-footer1 {
+    -webkit-box-align: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: justify;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+.detalles-cancion {
+    min-width: 180px;
+    width: 30%;
+}
+
+.contenedor-detalle {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    align-items: center;
+}
+
+.minicaratula {
+    isolation: isolate;
+    position: relative;
+}
+
+.icon {
+    position: relative;
+}
+.contenedor-icon{
+    width: 56px;
+    height: 56px;
+}
+.img-minicaratula{
+    width: 100%;
+    height:  100%;
+}
+
+.info-cancion {
+    align-items: center;
+    column-gap: 8px;
+    display: grid;
+    grid-template:
+        "titulo titulo"
+        "badges subtitle" /auto 1fr;
+    margin: 0 14px;
+}
+.titulo {
+    color: #fff;
+    grid-area: titulo;
+    justify-self: start;
+    width: 100%;
+}
+
+.contenedor-titulo {
+    margin-left: -6px;
+    margin-right: -6px;
+    -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 6px, #000 calc(100% - 12px), transparent);
+    overflow: hidden;
+    position: relative;
+}
+.contenedor2{
+    display: flex;
+    padding-inline-end: 12px;
+    padding-inline-start: 6px;
+    transform: translateX(var(--trans-x));
+    white-space: nowrap;
+    width: fit-content;
+}
+.contenedor3{
+    font-size: 0.875rem;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    margin-block: 0px;
+    font-weight: 400;
+    color: inherit;
+    width: 100%;
+}
+.tit{
+    font-weight: 550;
+    color: white;
+    text-decoration: none;
+}
+.artista{
+    grid-area: subtitle;
+    grid-column-start: badges;
+    min-width: 0;
+    width: 100%;
+}
+.subtit{
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    margin-block: 0px;
+    font-size: 0.785rem;
+    font-weight: 400;
+    color: var(--text-subdued,#6a6a6a);text-decoration: none;
+}
+.btn_like{
+    color: hsla(0,0%,100%,.7);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    background-color: transparent;
+    border: none;
+    height: 32px;
+    min-width: 32px;
+    width: 32px;
+}
+/*Estilos del div 2: controles*/
 
 
 
 
-.principal{
+.principal {
     background-color: red;
 }
 
