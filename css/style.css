@@ -3,9 +3,6 @@
     --color-menu: #000000;
     --color-controles: #181818;
 }
-element.style {
-    --panel-gap: 0px;
-}
 /*-----------------------Estilos Generales-----------------------*/
 body {
     background: var(--color-fondo);
@@ -45,20 +42,117 @@ body {
      position: relative;
      width: 100%;
 }
+/*-----------------------Estilos de la barra superior-----------------------*/
+.barra-superior{
+    grid-area: norte;
+    height: 64px;
+    min-width: 0;
+    pointer-events: none;
+}
+header{
+    padding: 16px 20px;
+    padding-inline-end: 32px;
+}
+header{
+    -webkit-box-align: center;
+    -webkit-box-pack: justify;
+    align-items: center;
+    display: flex;
+    gap: 16px;
+    height: 64px;
+    justify-content: space-between;
+    padding: 16px;
+    padding-inline-end: 16px;
+    position: relative;
+    width: 100%;
+    z-index: 10;
+}
+.btn-navegacion{
+    display: flex;
+    gap: 16px;
+}
+.btn-navegacion .btn_nav{
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0.7);
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    height: 32px;
+    justify-content: center;
+    position: relative;
+    width: 32px;
+    opacity: .6;
+}
+.norte-espacio1{
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    min-width: 0;
+    pointer-events: none;
+}
+.norte-espacio2{
+    display: flex;
+    gap: 8px;
+}
+.btn_premium{
+    margin-left: auto;
+    font-size: 0.875rem;
+    box-sizing: border-box;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    background-color: transparent;
+    border-radius: 500px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    padding-block: 3px;
+    padding-inline: 15px;
+    border: 1px solid var(--essential-subdued,#878787);
+    color: white;
+    min-block-size: 32px;
+    display: inline-flex;
+    align-items: center;
+}
+.btn_usuario{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    align-items: center;
+    background-color: rgba(0,0,0,.7);
+    border: 0;
+    border-radius: 23px;
+    color: #fff;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 8px;
+    height: 32px;
+    justify-content: center;
+    padding: 2px;
+    position: relative;
+}
+.user{
+    width: 28px;
+    height: 28px;
+    background-color: #878787;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.triangulo{
+    transform: rotate(90deg);
+    margin-inline-end: 6px;
+}
 /*-----------------------Estilos del Menu-----------------------*/
 
 
 
-
-
-.btn_Menu {
-    font-size: 14px;
-
-}
-
-.btn_nav {
-    background: red;
-}
 
 .logo {
     width: 130px;
