@@ -20,4 +20,3 @@ se me dificulto un poco la parte de la estrucura de la pagina, ya que en el caso
 de spotify, no entendia muy bien como hacer la estrucura, ademas de que no pude 
 hacer que sea una pagina responsiva, considero que me falta practicar mas esa parte
 para mejorar.
----
