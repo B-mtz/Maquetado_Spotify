@@ -62,7 +62,6 @@ header {
     align-items: center;
     display: flex;
     gap: 16px;
-  
     justify-content: space-between;
     position: relative;
     width: 100%;
@@ -97,7 +96,6 @@ header {
 }
 
 .norte-espacio1 {
-    -webkit-box-flex: 1;
     flex-grow: 1;
     min-width: 0;
     pointer-events: none;
@@ -186,8 +184,6 @@ header {
 }
 
 .contenedor-menu {
-    -webkit-box-orient: vertical;
-    -webkit-box-flex: 1;
     cursor: default;
     flex: 1;
     flex-direction: column;
@@ -199,8 +195,6 @@ header {
 }
 
 .logotipo {
-    -webkit-box-orient: horizontal;
-    -webkit-box-pack: justify;
     flex-direction: row;
     flex-shrink: 0;
     justify-content: space-between;
@@ -208,7 +202,6 @@ header {
 
 .contenedor-logo {
     border: 0;
-    ;
     flex: 1;
     margin-bottom: 18px;
     padding: 0 24px;
@@ -238,7 +231,6 @@ li {
     font-size: 0.875rem;
     font-weight: 700;
     text-decoration: none;
-    -webkit-box-align: center;
     align-items: center;
     border-radius: 4px;
     cursor: pointer;
@@ -308,7 +300,6 @@ li {
 }
 
 .icono-add1 {
-    -webkit-box-align: center;
     align-items: center;
     background: #fff;
     border-radius: 2px;
@@ -405,8 +396,7 @@ li {
     padding: 0 8px;
 }
 
-instalar-a {
-    -webkit-box-align: center;
+.instalar-a {
     align-items: center;
     border-radius: 4px;
     cursor: pointer;
@@ -440,10 +430,6 @@ footer {
 }
 
 .div-footer1 {
-    -webkit-box-align: center;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-box-pack: justify;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -520,7 +506,6 @@ footer {
 .contenedor3 {
     font-size: 0.875rem;
     box-sizing: border-box;
-    -webkit-tap-highlight-color: transparent;
     margin-block: 0px;
     font-weight: 400;
     color: inherit;
@@ -542,7 +527,6 @@ footer {
 
 .subtit {
     box-sizing: border-box;
-    -webkit-tap-highlight-color: transparent;
     margin-block: 0px;
     font-size: 0.785rem;
     font-weight: 400;
@@ -728,7 +712,6 @@ footer {
     background-color: transparent;
     outline: none;
     opacity: 0;
-    -webkit-transition: .2s;
     transition: opacity .2s;
 }
 
