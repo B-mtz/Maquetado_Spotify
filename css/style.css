@@ -18,13 +18,6 @@ body {
     text-transform: none;
     width: 100%;
 }
-.principal{
-    height: 100%;
-    position: relative;
-    isolation: isolate;
-    width: 100%;
-    z-index: 0;
-}
 div{
     display: block;
 }
@@ -712,6 +705,7 @@ footer {
     background-color: transparent;
     outline: none;
     opacity: 0;
+
     transition: opacity .2s;
 }
 
